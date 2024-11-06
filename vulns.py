@@ -6,7 +6,7 @@ import string
 import os
 import uuid 
 
-app = Flask(__name__)
+app = Flask(__name__) 
 app.secret_key = 'a_random_insecure_secret_key'  # Still using a weak secret key
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
