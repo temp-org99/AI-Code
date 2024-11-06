@@ -31,6 +31,7 @@ jobs:
           -e GITHUB_REPOSITORY_OWNER_ID="${{github.repository_owner_id}}" \
           -e GITHUB_REPOSITORY="${{github.repository}}" \
           -e GITHUB_REPOSITORY_ID="${{github.repository_id}}" \
+          -e RA="true" \
           -e GITHUB_EVENT_NAME="${{github.event_name}}" \
           -e GITHUB_ACTOR="${{github.actor}}" \
           -e GITHUB_ACTOR_ID="${{github.actor_id}}" \
