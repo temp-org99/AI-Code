@@ -4,7 +4,7 @@ import hashlib
 import random
 import string
 import os
-import uuid
+import uuid 
 
 app = Flask(__name__)
 app.secret_key = 'a_random_insecure_secret_key'  # Still using a weak secret key
