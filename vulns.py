@@ -173,5 +173,5 @@ def trigger_error():
         return str(e), 500  # This should be a generic message, not raw error
 
 if __name__ == '__main__':
-    init_db()
+    init_db() 
     app.run(debug=True)
