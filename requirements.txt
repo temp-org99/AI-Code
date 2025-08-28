@@ -3,4 +3,4 @@ openllm
 langchain>=0.0.212
 pydantic
 BeautifulSoup4
-
+django==4.1.3
